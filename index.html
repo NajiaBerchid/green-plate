@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/fd98908254.js"></script>
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> -->
+  <script src="js/main.js"></script> 
+
+  <!-- <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (max-width:1100px)"href="css/swidescreentyle.css"> -->
+ 
+  <title>Green Plate</title>
+</head>
+<body id="home">
+  <header class="hero">
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="text-primary">
+          <i class="fa fa-leaf"></i>Green</span>Plate
+      </h1>
+
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html"></a> Recipes <i class="fas fa-angle-down"></i>
+          <ul>
+            <li><a href="mains.html">Mains</a></li>
+            <ul>
+              <li><a href="prawnskewers.html">Prawn Skewers</a></li>
+            </ul>
+            <li><a href="salads.html">Salads</a></li>
+            <li><a href="sauces.html">Sauces</a></li>
+            <li><a href="desserts.html">Desserts</a></li>
+            <li><a href="baking.html">Baking</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="jellies.html">Jellies</a></li>
+            <li><a href="biscuits.html">Biscuits</a></li>
+            <li><a href="platters.html">Platters</a></li>
+            <li><a href="artofchocolate.html">Art of Chocolate</a></li>
+            
+
+          </ul>
+          </li>
+          <li>Dietary <i class="fas fa-angle-down"></i>
+            <ul>
+              <li><a href="vegan.html">Vegan</a>      <!-- <span>16 Posts</span></li> -->
+              <li><a href="vegetarian.html">Vegetarian</a>  <!-- <span>16 Posts</span></li> -->
+              <li><a href="glutenfree.html">Gluten Free</a> 
+              <li><a href="dairyFree.html">Dairy Free</a> 
+              <li><a href="ketodiet.html">Keto Diet</a> 
+            </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <h1>The Art Of Cooking</h1>
+      <p>We are happy to share the passion of cooking with you</p>
+      <a href="default.asp or page2" class="btn"><i class="fas fa-chevron-right"></i>Find Out More</a>
+    </div>
+  </header>
+  
+  <!--JQuery CDN (it is important to put in order on top of local JS file or else it will not what what Im talking about)-->
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+
+  <!--Local JS File-->
+  <!-- <script src="js/main.js"></script> -->
+
+  <!--Google Maps-->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3yTuiBTSVZ8_qbuJfDhg4i98W8g1AHyo&callback=initMap"
+    async defer></script> -->
+
+
+    <!--Recipes-->
+    <section id="home-recipes" class="py-2">
+      <div class="container"> 
+         <h2>Recipes </h2> 
+         <!-- <h3><a href="recipes.html" class="btn">See all recipes</a></h3> -->
+        
+     <div class="recipes-container">
+     <recipes class="card">
+      <!-- <a href="recipes.html">
+        <img src="img/pumkin latte.jpg"/>
+       </a> -->
+       <a href="recipes.html">
+       <img src="img/macaroon cafe.jpg" alt=""></a>
+  <div>
+    <a href="biscuits.html"><div class="category category-drinks">Biscuits/Desserts</div></a>
+   
+   <h3>
+    <a href="biscuits.html">Cacao Macaroon</a>
+      </h3>
+      <div class="preptime">
+      <p><span class="text-primary">Prep</span>25 mins</p>
+    </div>
+    <div class="cooktime">
+      <p><span class="text-primary">Cook</span>50 mins</p>
+    </div>
+    <div class="serves">
+      <p><span class="text-primary">Serves</span>2</p>
+      <div class="dietary">
+        <p><span class="text-primary">Dietary</span>V</p>
+      </div>
+    </div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi reprehenderit nemo sequi accusamus provident at nam sit. Quasi, sunt!<!-- <a href="recipes.html" class="btn"><i class="fas fa-chevron-right"></i>Find Out More</a>--></p> 
+       </div>
+      </recipes>
+
+    <recipes class="card">
+ <a href="recipes.html">
+  <img src="img/salad.jpg" alt="" ></a>
+  <div>
+    <a href="salads.html"><div class="category category-salads">Salads</div></a>
+  <h3>
+    <a href="recipes.html">Avocado Salad</a>
+    </h3>
+    <div class="preptime">
+    <p><span class="text-primary">Prep</span>Less than 30 mins</p>
+  </div>
+  <div class="cooktime">
+    <p><span class="text-primary">Cook</span>30 mins</p>
+  </div>
+  <div class="serves">
+    <p><span class="text-primary">Serves</span>2</p>
+    <div class="dietary">
+      <p><span class="text-primary">Dietary <!-- &nbsp;&nbsp; to add space btw 2 words--></span>V</p> 
+    </div>
+     </div>
+      </div>
+        </recipes>
+
+             
+     <recipes class="card">
+      <a href="recipes.html"> 
+  <img src="img/salmon nests.jpeg" alt=""></a>
+  <div>
+    <a href="mains.html"><div class="category category-main">Mains</div></a>   
+    <h3>
+     <a href="recipes.html">Salmon Nests</a>
+      </h3>
+       <div class="preptime">
+        <p><span class="text-primary">Prep</span>>30 mins</p>
+      </div>
+      <div class="cooktime">
+        <p><span class="text-primary">Cook</span>50 mins</p>
+      </div>
+      <div class="serves">
+        <p><span class="text-primary">Serves</span>4</p>
+        <div class="dietary">
+          <p><span class="text-primary">Dietary</span>V</p>
+        </div>
+      </div>
+      </div>
+       </recipes>
+
+       
+      <recipes class="card">
+        <a href="recipes.html">
+    <img src="img/chicken pastilla.jpg" alt=""></a>
+    <div>
+      <a href="mains.html"><div class="category category-main">Mains</div></a>    
+    <h3>
+      <a href="recipes.html">Chicken Pastilla</a>
+        </h3>
+        <div class="preptime">
+          <p><span class="text-primary">Prep</span><30 mins</p>
+        </div>
+        <div class="cooktime">
+          <p><span class="text-primary">Cook</span>30 mins</p>
+        </div>
+        <div class="serves">
+          <p><span class="text-primary">Serves</span>6</p>
+          <div class="dietary">
+            <p><span class="text-primary"></span></p>
+          </div>
+        </div>
+        </div>
+         </recipes>
+
+         
+      <recipes class="card">
+        <a href="recipes.html">
+      <img src="img/choc cupcake.jpeg" alt=""></a>
+      <div>
+        <a href="desserts.html"><div class="category category-main">Desserts</div></a>      
+      <h3>
+        <a href="recipes.html">Chocolate Cupcake</a>
+          </h3>
+          <div class="preptime">
+            <p><span class="text-primary">Prep </span> <30 mins</p>
+          </div>
+          <div class="cooktime">
+            <p><span class="text-primary">Cook</span>1 hour</p>
+          </div>
+          <div class="serves">
+            <p><span class="text-primary">Serves</span>6</p>
+            <div class="dietary">
+              <p><span class="text-primary">Dietary </span>V</p>
+            </div>
+          </div>
+          </div>
+         </recipes>
+
+         
+      <recipes class="card">
+        <a href="recipes.html">
+    <img src="img/flan.jpeg" alt=""></a>
+    <div>
+      <a href="desserts.html"><div class="category category-main">Desserts</div></a>
+        <h3>
+      <a href="recipes.html">Flan</a>
+        </h3>
+        <div class="preptime">
+          <p><span class="text-primary">Prep</span>Less than 30 mins</p>
+        </div>
+        <div class="cooktime">
+          <p><span class="text-primary">Cook</span>45 mins</p>
+        </div>
+        <div class="serves">
+          <p><span class="text-primary">Serves: </span>4</p>
+          <div class="dietary">
+            <p><span class="text-primary">Dietary </span>V</p>
+          </div>
+        </div>
+        </div>
+      </recipes>
+
+  <recipes class="card">
+    <a href="recipes.html">
+    <img src="img/Kaab El Ghazal gazzele horns.jpg" alt=""></a>
+    <div>
+      <a href="biscuits.html"><div class="category category-main">Desserts/Biscuits</div></a>
+      <h3>
+      <a href="recipes.html">Kaab El Ghazal/Gazzele Horns</a>
+        </h3>
+        <div class="preptime">
+          <p><span class="text-primary">Prep</span>20 mins</p>
+        </div>
+        <div class="cooktime">
+          <p><span class="text-primary">Cook</span>1 hour</p>
+        </div>
+        <div class="serves">
+          <p><span class="text-primary">Serves</span>8</p>
+          <div class="dietary">
+            <p><span class="text-primary">Dietary </span>V</p>
+          </div>
+        </div>
+        </div>
+      </recipes>
+
+  <recipes class="card">
+    <a href="recipes.html">
+    <img src="img/platter.jpeg" alt=""></a>
+    <div>
+      <a href="platters.html"><div class="category category-main">Platters</div></a>    
+    <h3>
+      <a href="recipes.html">Fruit Platter</a>
+        </h3>
+        <div class="preptime">
+          <p><span class="text-primary">Prep</span>15 mins</p>
+        </div>
+        <div class="cooktime">
+          <p><span class="text-primary">Cook</span>10 mins</p>
+        </div>
+        <div class="serves">
+          <p><span class="text-primary">Serves</span>10</p>
+          <div class="dietary">
+            <p><span class="text-primary">Dietary </span>V</p>
+          </div>
+        </div>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi repreh sunt!  <a href="recipes.html" class="btn"><i class="fas fa-chevron-right"></i></a></p> -->
+        </div>
+      </recipes>
+
+       <recipes class="card">
+      <a href="recipes.html">
+  <img src="img/baguette.jpeg" alt="" ></a>
+  <div>
+    <a href="baking.html"><div class="category category-salads">Baking</div></a>
+  <h3>
+    <a href="recipes.html">Baguette</a>
+    </h3>
+    <div class="preptime">
+    <p><span class="text-primary">Prep</span>Less than 30 mins</p>
+  </div>
+  <div class="cooktime">
+    <p><span class="text-primary">Cook</span>30 mins</p>
+  </div>
+  <div class="serves">
+    <p><span class="text-primary">Serves</span>2</p>
+    <div class="dietary">
+      <p><span class="text-primary">Dietary <!-- &nbsp;&nbsp; to add space btw 2 words--></span>V</p> 
+    </div>
+     </div>
+      </div>
+        </recipes>
+
+    <recipes class="card">
+      <a href="recipes.html">
+      <img src="img/gold macaroons.jpg" alt=""></a>
+      <div>
+        <a href="desserts.html"><div class="category category-main">Biscuits/Desserts</div></a>
+        <h3>
+          <a href="recipes.html">Golden Macaroon</a>
+          </h3>
+            <div class="preptime">
+            <p><span class="text-primary">Prep</span>>20 mins</p>
+          </div>
+          <div class="cooktime">
+            <p><span class="text-primary">Cook</span>1 hour</p>
+          </div>
+          <div class="serves">
+            <p><span class="text-primary">Serves</span>10</p>
+            <div class="dietary">
+              <p><span class="text-primary">Dietary</span>V</p>
+            </div>
+          </div>
+          </div>
+     </recipes>
+
+     <recipes class="card">
+      <a href="recipes.html">
+      <img src="img/prawnjpeg.jpeg" alt=""></a>
+      <div>
+        <a href="mains.html"><div class="category category-main">Mains</div></a>
+        <h3>
+          <a href="recipes.html">Grill Prawn</a>
+          </h3>
+            <div class="preptime">
+            <p><span class="text-primary">Prep</span>15 mins</p>
+          </div>
+          <div class="cooktime">
+            <p><span class="text-primary">Cook</span> <20 mins</p>
+          </div>
+          <div class="serves">
+            <p><span class="text-primary">Serves</span>10</p>
+            <div class="dietary">
+              <p><span class="text-primary">Dietary</span>V</p>
+            </div>
+          </div>
+          </div>
+     </recipes>
+
+     <recipes class="card">
+      <a href="recipes.html">      
+      <img src="img/sliced meat.jpg" alt=""></a>
+      <div>
+        <a href="mains.html"> <div class="category category-main">Mains</div></a>
+        <h3>
+          <a href="recipes.html">Roast Beef</a>
+          </h3>
+            <div class="preptime">
+            <p><span class="text-primary">Prep</span>>20 mins</p>
+          </div>
+          <div class="cooktime">
+            <p><span class="text-primary">Cook</span>55 mins</p>
+          </div>
+          <div class="serves">
+            <p><span class="text-primary">Serves</span>6</p>
+            <div class="dietary">
+              <p><span class="text-primary"></span></p>
+            </div>
+          </div>
+          </div>
+     </recipes>
+
+     <recipes class="card">
+      <a href="recipes.html">
+      <img src="img/pumkin latte.jpg" alt=""></a>
+      <div>
+        <a href="drinks.html"><div class="category category-main">Drinks</div></a>
+                <h3>
+          <a href="recipes.html">Pumkin Latte</a>
+          </h3>
+            <div class="preptime">
+            <p><span class="text-primary">Prep</span>>20 min</p>
+          </div>
+          <div class="cooktime">
+            <p><span class="text-primary">Cook</span>10 mins</p>
+          </div>
+          <div class="serves">
+            <p><span class="text-primary">Serves</span>4</p>
+            <div class="dietary">
+              <p><span class="text-primary">Dietary</span>V</p>
+            </div>
+          </div>
+          </div>
+     </recipes>
+     <!-- <section id="home-recipes" class="py-2">
+      <div class="container">   -->
+         <h4><a href="recipes.html" class="btn">See all recipes</a></h4>
+     </div>    
+   </div>
+  </section>
+
+
+
+
+
+  <!-------------------------------------------------->
+  <!-------------------------------------------------->
+  <!-------------------------------------------------->
+
+
+
+
+  <!--Dietary-->
+  <section id="home-dietary" class="py-3">
+    <div class="container"> 
+       <h2>Dietary</h2>       
+   <div class="dietary-container">
+   <dietary class="card-dietary">
+     <a href="dietary.html">
+     <img src="img/pumkin soup .jpg" alt=""></a>
+<div>
+  <a href="biscuits.html"><div class="category category-drinks">Mains</div></a>
+   <h3>
+  <a href="dietary.html">Pumkin Soup</a>
+    </h3>
+  <li><a href="vegan.html">Vegan</a></li>
+     </div>
+    </dietary>
+
+  <dietary class="card-dietary">
+<a href="dietary.html">
+<img src="img/Veg main.jpeg" alt="" ></a>
+<div>
+  <a href="salads.html"><div class="category category-salads">Mains</div></a>
+  <h3>
+  <a href="dietary.html">Vegetables dish</a>
+  </h3>
+  <li><a href="vegan.html">Vegetarian</a></li>
+    </div>
+      </dietary>
+
+           
+  <dietary class="card-dietary">
+  <a href="dietary.html">
+  <img src="img/gluten free choc cake.jpeg" alt="" ></a>
+  <div>
+    <a href="salads.html"><div class="category category-salads">Baking</div></a>
+   <h3>
+      <a href="dietary.html">Chocolate Cake</a>
+      </h3>
+      <li><a href="vegan.html">Gluten Free</a></li>
+        </div>
+          </dietary>
+
+  <dietary class="card-dietary">
+  <a href="dietary.html">
+  <img src="img/dairy free.jpeg" alt="" ></a>
+  <div>
+    <a href="salads.html"><div class="category category-salads">Baking</div></a>
+    <h3>
+     <a href="dietary.html">Pancake</a>
+     </h3>
+      <li><a href="vegan.html">Dairy Free</a></li>
+      </div>
+         </dietary>
+    
+      </div>    
+    </div> 
+    <section id="home-dietary" class="py-3">
+      <div class="container"> 
+        <h4><a href="dietary.html" class="btn">See all dietary</a></4>      
+     <div class="dietary-container">
+   </section>
+
+
+   <!--------------------------------ABOUT------>
+   
+  <section id="home-about" class="py-2">
+    <div class="container"> 
+       <h2>About</h2>       
+   <div class="about-container">
+
+   <about class="card-about">
+     <a href="about.html">
+     <img src="img/homeware.jpeg" alt=""></a>
+<div>
+   <h3> 
+  <a href="about.html">Homewares</a>
+    </h3>
+  <!-- <li><a href="vegan.html">Vegan</a></li> -->
+     </div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi reprehenderit nemo sequi accusamus provident at nam sit. Quasi, sunt!<a href="recipes.html" class="btn"><i class="fas fa-chevron-right"></i>Find Out More</a></p> 
+    </about>
+           
+  <about class="card-about">
+  <a href="about.html">
+  <img src="img/cook book.jpeg" alt="" ></a>
+  <div>
+    <h3>
+    <a href="about.html">Books<!--Restaurants --></a>
+    </h3>
+        <!-- <div class="preptime">
+        <p><span class="text-primary">Prep</span>25 mins</p>
+      </div> -->
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis excepturi reprehenderit nemo sequi accusamus provident at nam sit. Quasi, sunt!<a href="recipes.html" class="btn"><i class="fas fa-chevron-right"></i>Find Out More</a></p> 
+        </div>
+    </about>
+      </div>    
+    </div> 
+    <section id="home-about" class="py-2">
+      <div class="container"> 
+        <!-- <h4><a href="about.html" class="btn">See all about</a></4>       -->
+     <div class="about-container">
+   </section>
+
+   
+   <!--CONTACT------------------------------------>
+     
+  <section id="home-contact" class="py-3">
+    <!-- <div class="container"-->
+      <div class="contact-container">
+   <contact class="contact-form">
+  <h2 class="m-heading">Contact Us</h2>
+  <p>Please use the form below to contact us</p>
+  <form action="https://formspree.io/janna.bio10@gmail.com"
+method="POST"> 
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" email="name" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+          <label for="phone number">Phone Number</label>
+          <input type="text" name="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter Message"></textarea> 
+        </div> 
+        <!-- <div button type="submit" class="btn">Send</button></div> -->
+        <input type="submit" value="Submit" class="btn">
+  </form>
+</contact>
+           
+  <contact class="card-contact">
+  <a><img src="img/cook book.jpeg" alt="" ></a> 
+  
+        </div>
+      </contact>
+      </div>    
+    </div> 
+   </section>
+
+  <!-- Footer-->
+  
+ 
+
+   <footer id="footer" class="">
+    <div class="container">
+
+        <div class="social">
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+          <a href="https://www.pinterest.co.uk/berchidn/boards/" target="_blank"><i class="fab fa-pinterest fa-2x"></i></a>
+      </div>
+        <p>Copyright &copy; 2020 GreenPlate, All Rights Reserved</p>
+    </div>
+  </footer>
+
+    <!--JQuery CDN (it is important to put in order on top of local JS file or else it will not what what Im talking about)-->
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+
+  <!--Local JS File-->
+  <!-- <script src="js/main.js"></script> -->
+
+  <!--Google Maps-->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3yTuiBTSVZ8_qbuJfDhg4i98W8g1AHyo&callback=initMap"
+    async defer></script> -->
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- AIzaSyD3yTuiBTSVZ8_qbuJfDhg4i98W8g1AHyo -->

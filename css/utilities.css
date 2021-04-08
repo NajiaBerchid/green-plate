@@ -1,0 +1,35 @@
+Text colors
+.text-primary {
+  color: #78ff00;
+}
+.text-secondary {
+  color: #6ce600;
+}
+/*Button*/
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 8px;
+  color: #fff;
+  background-color: #78ff00;
+  border: none;
+  border-radius: 5px; /*curve on corner*/
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-primary { 
+  background: #78ff00;
+  color: #fff;
+}
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+
