@@ -43,6 +43,5 @@ $(document).ready(function () {
       event.preventDefault()
       statusElm.append('<div>Message is not valid</div>')
     }
-
   })
 })
